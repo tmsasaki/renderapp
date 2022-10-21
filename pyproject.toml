@@ -6,12 +6,12 @@ authors = ["tmsasaki <tmsski@yahoo.com.br>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
-django = "^4.1.2"
+python = "^3.7"
+django = "^3.0.0"
 dj-database-url = "^1.0.0"
-psycopg2-binary = "^2.9.4"
-whitenoise = {extras = ["brotli"], version = "^6.2.0"}
-gunicorn = "^20.1.0"
+psycopg2-binary = "^2.0.0"
+whitenoise = {extras = ["brotli"], version = "^6.0.0"}
+gunicorn = "^20.0.0"
 
 
 [build-system]
