@@ -6,7 +6,7 @@ authors = ["tmsasaki <tmsski@yahoo.com.br>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.8"
 django = ">=3.1"
 dj-database-url = ">=1.0.0"
 psycopg2-binary = ">=2.0.0"
